@@ -1,0 +1,27 @@
+From 5a2301260db10ec2a551aa71d0dca7fde452a923 Mon Sep 17 00:00:00 2001
+From: Daiane Angolini <daiane.angolini@freescale.com>
+Date: Thu, 28 May 2015 14:52:29 -0300
+Subject: [PATCH] Makefile: Fixup installation source
+
+Signed-off-by: Daiane Angolini <daiane.angolini@freescale.com>
+---
+ Makefile.in | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/Makefile.in b/Makefile.in
+index a69b836..5d3a976 100644
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -64,18 +64,18 @@ slib:
+
+ install:
+ 	$(INSTALL) -d -m 0755 $(BINDIR)
+-	$(INSTALL) -m 755 $(srcdir)/cdparanoia $(BINDIR)
++	$(INSTALL) -m 755 cdparanoia $(BINDIR)
+ 	$(INSTALL) -d -m 0755 $(MANDIR)
+ 	$(INSTALL) -d -m 0755 $(MANDIR)/man1
+ 	$(INSTALL) -m 0644 $(srcdir)/cdparanoia.1 $(MANDIR)/man1
+ 	$(INSTALL) -d -m 0755 $(INCLUDEDIR)
+
+--
+1.9.1
