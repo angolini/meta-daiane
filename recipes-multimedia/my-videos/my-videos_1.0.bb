@@ -1,3 +1,4 @@
+# Copyright (C) 2015, Daiane Angolini <daiane.angolini@freescale.com>
 SUMMARY = "My very special movies"
 LICENSE = "CLOSED"
 #Which license?

@@ -1,3 +1,5 @@
+# Copyright (C) 2015, Daiane Angolini <daiane.angolini@freescale.com>
+
 # Append to backport to fido some valgrind bugfixes from master
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
