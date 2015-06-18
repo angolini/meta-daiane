@@ -15,7 +15,7 @@ This layer depends on:
   URI: git://git.freescale.com/imx/fsl-arm-yocto-bsp.git
   branch: imx-3.14.28-1.0.0_ga
   or
-  branch: mx-3.14.28-1.0.1_patch
+  branch: imx-3.14.28-1.0.1_patch
 
 
 Patches
