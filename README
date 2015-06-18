@@ -13,10 +13,7 @@ Dependencies
 This layer depends on:
 
   URI: git://git.freescale.com/imx/fsl-arm-yocto-bsp.git
-  branch: imx-3.14.28-1.0.0_ga
-  or
-  branch: mx-3.14.28-1.0.1_patch
-
+  branch: imx-3.14.28-7D_alpha
 
 Patches
 =======
@@ -31,7 +28,7 @@ Adding the daiane layer to your build
 After follow the directions from README to download Freescale release:
 
 $ cd sources
-$ git clone  git@github.com:angolini/meta-daiane.git -b imx-3.14.28-1.0.0_ga
+$ git clone  git@github.com:angolini/meta-daiane.git -b imx-3.14.28-7D_alpha
 
 Change the bblayers to add meta-daiane, for example using:
 
