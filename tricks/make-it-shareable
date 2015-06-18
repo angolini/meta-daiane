@@ -1,0 +1,4 @@
+#share same place for sstate-cache between all releases
+SSTATE_DIR = "/opt/sstate-cache"
+#donwload only once between all releases
+DL_DIR = "/opt/downloads"
