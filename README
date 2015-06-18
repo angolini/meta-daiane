@@ -36,3 +36,10 @@ $ git clone  git@github.com:angolini/meta-daiane.git -b imx-3.14.28-1.0.0_ga
 Change the bblayers to add meta-daiane, for example using:
 
 $ cat ../sources/meta-daiane/tricks/add-bblayer >> conf/bblayers.conf
+
+Share downloads and sstate-cache
+================================
+
+$ cat ../sources/meta-daiane/tricks/make-it-shareable >> conf/local.conf
+
+It will set up DL_DIR and SSTATE_DIR to one comun place. It is helpful when you need to keep two release version installed in the same machine, the download and sstate-cache can be shared between each release installed
