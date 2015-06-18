@@ -1,0 +1,3 @@
+INHERIT += "own-mirrors"
+SOURCE_MIRROR_URL = "file:///repo/yocto/multimedia"
+
