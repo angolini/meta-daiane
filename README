@@ -33,11 +33,6 @@ After follow the directions from README to download Freescale release:
 $ cd sources
 $ git clone  git@github.com:angolini/meta-daiane.git -b imx-3.14.28-1.0.0_ga
 
-Change the bblayers to add meta-daiane, for example:
+Change the bblayers to add meta-daiane, for example using:
 
-  BBLAYERS ?= " \
-    /path/to/yocto/meta \
-    /path/to/yocto/meta-yocto \
-    /path/to/yocto/meta-yocto-bsp \
-    /path/to/yocto/meta-daiane \
-    "
+$ cat ../sources/meta-daiane/tricks/add-bblayer >> conf/bblayers.conf
